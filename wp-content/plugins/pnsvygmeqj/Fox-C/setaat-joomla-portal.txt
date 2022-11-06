@@ -1,0 +1,1 @@
+/home/setaat/public_html/portal/configuration.php

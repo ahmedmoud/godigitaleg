@@ -1,0 +1,1 @@
+/home/cpanel/public_html/clients/bb-config.php

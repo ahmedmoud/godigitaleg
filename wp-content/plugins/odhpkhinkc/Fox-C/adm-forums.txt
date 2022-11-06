@@ -1,0 +1,1 @@
+/home/adm/public_html/forums/includes/config.php

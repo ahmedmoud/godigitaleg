@@ -1,0 +1,1 @@
+/home/cmssetaat/public_html/web/configuration.php

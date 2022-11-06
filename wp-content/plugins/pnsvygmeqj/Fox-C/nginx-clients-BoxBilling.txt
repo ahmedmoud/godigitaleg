@@ -1,0 +1,1 @@
+/home/nginx/public_html/clients/bb-config.php

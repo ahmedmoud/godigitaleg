@@ -1,0 +1,1 @@
+/home/cmssetaat/public_html/blogs/wp-config.php

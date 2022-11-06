@@ -1,0 +1,1 @@
+/home/monitorsetaat/public_html/test/configuration.php

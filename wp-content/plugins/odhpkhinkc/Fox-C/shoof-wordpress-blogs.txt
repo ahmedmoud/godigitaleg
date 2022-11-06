@@ -1,0 +1,1 @@
+/home/shoof/public_html/blogs/wp-config.php

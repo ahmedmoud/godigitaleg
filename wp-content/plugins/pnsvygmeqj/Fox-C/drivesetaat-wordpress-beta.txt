@@ -1,0 +1,1 @@
+/home/drivesetaat/public_html/beta/wp-config.php

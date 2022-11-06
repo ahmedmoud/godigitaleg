@@ -1,0 +1,1 @@
+/home/cmssetaat/public_html/blesta/config/blesta.php

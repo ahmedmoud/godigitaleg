@@ -1,0 +1,1 @@
+/home/ingamers/public_html/blogs/wp-config.php

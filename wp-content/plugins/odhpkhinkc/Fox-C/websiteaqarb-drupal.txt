@@ -1,0 +1,1 @@
+/home/websiteaqarb/public_html/sites/default/settings.php

@@ -1,0 +1,1 @@
+/home/kreategoodconten/public_html/new/configuration.php

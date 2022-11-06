@@ -1,0 +1,1 @@
+/home/ingamers/public_html/beta/wp-config.php

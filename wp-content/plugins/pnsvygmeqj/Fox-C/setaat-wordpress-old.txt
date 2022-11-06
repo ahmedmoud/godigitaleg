@@ -1,0 +1,1 @@
+/home/setaat/public_html/old/wp-config.php

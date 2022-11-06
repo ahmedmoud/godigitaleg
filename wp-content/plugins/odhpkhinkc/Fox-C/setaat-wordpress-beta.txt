@@ -1,0 +1,1 @@
+/home/setaat/public_html/beta/wp-config.php

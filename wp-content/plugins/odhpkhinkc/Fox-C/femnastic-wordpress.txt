@@ -1,0 +1,95 @@
+<?php
+
+define('FS_METHOD', 'direct');
+
+/**
+ * إعدادات الووردبريس الأساسية
+ *
+ * عملية إنشاء الملف wp-config.php تستخدم هذا الملف أثناء التنصيب. لا يجب عليك
+ * استخدام الموقع، يمكنك نسخ هذا الملف إلى "wp-config.php" وبعدها ملئ القيم المطلوبة.
+ *
+ * هذا الملف يحتوي على هذه الإعدادات:
+ *
+ * * إعدادات قاعدة البيانات
+ * * مفاتيح الأمان
+ * * بادئة جداول قاعدة البيانات
+ * * المسار المطلق لمجلد الووردبريس
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
+ *
+ * @package WordPress
+ */
+
+// ** إعدادات قاعدة البيانات - يمكنك الحصول على هذه المعلومات من مستضيفك ** //
+
+/** اسم قاعدة البيانات لووردبريس */
+define('DB_NAME', 'femnasti_c31meriTen');
+
+/** اسم مستخدم قاعدة البيانات */
+define('DB_USER', 'femnasti_c31meri');
+
+/** كلمة مرور قاعدة البيانات */
+define('DB_PASSWORD', 'Vfod-8vwLHM@');
+
+/** عنوان خادم قاعدة البيانات */
+define('DB_HOST', 'localhost');
+
+/** ترميز قاعدة البيانات */
+define('DB_CHARSET', 'utf8mb4');
+
+/** نوع تجميع قاعدة البيانات. لا تغير هذا إن كنت غير متأكد */
+define('DB_COLLATE', '');
+
+/**#@+
+ * مفاتيح الأمان.
+ *
+ * استخدم الرابط التالي لتوليد المفاتيح {@link https://api.wordpress.org/secret-key/1.1/salt/}
+ *
+ * @since 2.6.0
+ */
+define('AUTH_KEY',         '.Jto$Ra*laZt*PH_&r|EABhq*Vxy)KM6q/ngjfr.igs9wF~WT&ZqLhw[T,Ms_Y^0');
+define('SECURE_AUTH_KEY',  '6@or+|a}a!pU Q[raE:KJY!D?x1Qo9Txh,o&Iq5wdkM7yjcGm7-hUsPWlnbJ )H/');
+define('LOGGED_IN_KEY',    ':.(@9s7:k<YH#.G~2&tl-h7]mptK?e}X~wU|?rLFP*4mhRINbPd]@.Og40}vh)H[');
+define('NONCE_KEY',        '};LRzJt`DiSYU?W4]}Nl[?(;fh-AwHxGccdrwvW^reBS*;_.[[>&/*#!^UMn<!N.');
+define('AUTH_SALT',        '22DJ]wM`O.kAqT@l@m<vQ_HQrRWF#s!k.E}jhkb aV8Fz1sKO-q`BXT| )P*5Po(');
+define('SECURE_AUTH_SALT', '3!U{#x$2!d5jYRju}(!J8c(|QZ{j>qS84 s-(,Ak9_VFv <;l]_3[GUdud9VGxn#');
+define('LOGGED_IN_SALT',   '{$7WHheC9/;@=4D%}B0=k.T+3tCm%k<poGk5~[;%NoHR_4z$1`nrkX)u-N1!>$A/');
+define('NONCE_SALT',       'gq?}m]H!S;bL1ZgVcCBid}qZ(WDrnt_Ngn~$,536^@~$&Qhqh/Q.5Zw(}C;UiO})');
+
+/**#@-*/
+
+/**
+ * بادئة الجداول في قاعدة البيانات.
+ *
+ * تستطيع تركيب أكثر من موقع على نفس قاعدة البيانات إذا أعطيت لكل موقع بادئة جداول مختلفة
+ * يرجى استخدام حروف، أرقام وخطوط سفلية فقط!
+ */
+$table_prefix  = 'wp_';
+
+/**
+ * للمطورين: نظام تشخيص الأخطاء
+ *
+ * قم بتغييرالقيمة، إن أردت تمكين عرض الملاحظات والأخطاء أثناء التطوير.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
+ */
+// Turn debugging on
+define('WP_DEBUG', true);
+
+// Tell WordPress to log everything to /wp-content/debug.log
+define('WP_DEBUG_LOG', true);
+
+// Turn off the display of error messages on your site
+define('WP_DEBUG_DISPLAY', false);
+
+// For good measure, you can also add the follow code, which will hide errors from being displayed on-screen
+@ini_set('display_errors', 0);
+
+/* هذا هو المطلوب، توقف عن التعديل! نتمنى لك التوفيق. */
+
+/** المسار المطلق لمجلد ووردبريس. */
+if ( !defined('ABSPATH') )
+	define('ABSPATH', dirname(__FILE__) . '/');
+
+/** إعداد متغيرات الووردبريس وتضمين الملفات. */
+require_once(ABSPATH . 'wp-settings.php');

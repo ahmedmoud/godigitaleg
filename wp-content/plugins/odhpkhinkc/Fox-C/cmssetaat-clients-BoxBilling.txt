@@ -1,0 +1,1 @@
+/home/cmssetaat/public_html/clients/bb-config.php

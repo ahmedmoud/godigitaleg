@@ -1,0 +1,1 @@
+/home/postfix/public_html/blesta/config/blesta.php

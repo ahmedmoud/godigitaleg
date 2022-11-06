@@ -1,0 +1,1 @@
+/home/munin/public_html/whmcs/configuration.php

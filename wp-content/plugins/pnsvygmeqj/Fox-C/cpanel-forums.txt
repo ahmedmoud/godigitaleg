@@ -1,0 +1,1 @@
+/home/cpanel/public_html/forums/includes/config.php

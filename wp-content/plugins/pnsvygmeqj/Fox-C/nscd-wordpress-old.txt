@@ -1,0 +1,1 @@
+/home/nscd/public_html/old/wp-config.php

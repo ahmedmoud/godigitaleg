@@ -1,0 +1,1 @@
+/home/demodemotechhub/public_html/wp/wp-config.php

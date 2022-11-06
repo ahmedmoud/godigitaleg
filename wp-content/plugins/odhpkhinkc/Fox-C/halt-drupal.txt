@@ -1,0 +1,1 @@
+/home/halt/public_html/sites/default/settings.php

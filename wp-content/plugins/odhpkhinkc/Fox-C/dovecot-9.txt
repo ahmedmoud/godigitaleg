@@ -1,0 +1,1 @@
+/home/dovecot/public_html/mk_conf.php
